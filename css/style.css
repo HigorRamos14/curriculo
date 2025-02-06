@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: rgb(123, 123, 123);
+}
+
+.topMenu {
+    background-image: url("../image/backgroundMain.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0;
+}
+
+
