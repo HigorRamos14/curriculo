@@ -1,15 +1,45 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(235, 232, 227);
     color: aliceblue;
-    background-color: rgb(123, 123, 123);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: fle;
 }
 
 .topMenu {
     background-image: url("../image/backgroundMain.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
     background-repeat: no-repeat;
-    height: 700px;
-    margin: 0;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
 }
 
+.topMenu nav ul{
+    display: flex;
+}
 
+.topMenu nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.topMenu  nav ul li a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topMenu h1 {
+    font-size: 130px;
+    padding-top:250px ;
+}
+
+.myProfile {
+    background-color: azure;
+}
