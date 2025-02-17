@@ -5,13 +5,17 @@
 }
 
 header {
-    background-color: darkblue;
+    margin: 15px;
+    padding-left: 10px;
+    background-color: #26245F;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: aliceblue;
     height: 100px;
-
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
 header nav ul {
@@ -36,11 +40,25 @@ section{
 
 footer {
     bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color:blue;
+    
+    background-color:#26245F;
     color: white;
     text-align: center;
     padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
-  
+
+.myProfile {
+    margin: 50px;
+}
+
+.myProfile h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myProfile p {
+    font-size: 25px;
+    padding: 15px;
+}
