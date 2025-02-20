@@ -136,3 +136,40 @@ footer div h2 a {
     border-radius: 15px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
 }
+
+@media (max-width: 320px){
+
+    header {
+        margin: 15px;
+        padding-left: 10px;
+        background-color: #26245F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+        height: 30%;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+    }
+    
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: end;
+    }
+    
+    header nav ul li {
+        padding: 15px;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+    
+}
