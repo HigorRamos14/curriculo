@@ -40,14 +40,32 @@ header nav ul li a {
 
 
 footer {
+    display: flex;
     bottom: 0;
     background-color:#26245F;
     color: white;
-    text-align: center;
     padding: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-  }
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div h2{
+    padding: 30px;
+    font-size: 25px;
+}
+
+footer div h2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .myProfile {
     margin: 50px;
@@ -70,4 +88,51 @@ footer {
     flex-direction: column;
     margin: 50px;
     width: 400px;
+}
+
+.mySkills {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 400px;
+}
+
+.myExperiences {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.myExperiences div {
+    display: flex;
+}
+.Experiences {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.myAcademicTraining {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.myAcademicTraining div {
+    display: flex;
+}
+.AcademicTraining {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
 }
