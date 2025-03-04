@@ -36,8 +36,18 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: aliceblue;
+    padding: 6px;
+    border-radius: 5px;
+    transition: color 0.5s ease;
+
 }
 
+
+header nav ul li a:hover {
+    background-color: aliceblue;
+    color: #26245F;
+    
+}
 
 footer {
     display: flex;
@@ -224,7 +234,7 @@ footer div h2 a {
 
     footer div h2 {
         font-size: small;
-        border: 2px;
+        border: 2px; 
     }
     
 }
