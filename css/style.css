@@ -25,6 +25,7 @@ header {
     margin-bottom: 15px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
+    white-space: nowrap;
 
 }
 
@@ -33,6 +34,7 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
