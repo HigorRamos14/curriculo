@@ -66,6 +66,7 @@ footer {
     align-items: center;
     font-size: 35px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 footer div {
