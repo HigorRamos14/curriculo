@@ -9,7 +9,6 @@ html{
 
 body {
     background-color: rgba(168, 168, 168, 0.177);
-  
 }
 
 header {
@@ -24,6 +23,7 @@ header {
     border-radius: 20px;
     margin-bottom: 15px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
 }
 
 header nav ul {
@@ -65,6 +65,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 35px;
+    box-sizing: border-box;
 }
 
 footer div {
