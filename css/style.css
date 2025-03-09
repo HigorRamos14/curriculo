@@ -117,6 +117,7 @@ footer div h2 a {
 
 .myExperiences div {
     display: flex;
+    flex-wrap: wrap;
 }
 .Experiences {
     display: flex;
@@ -136,6 +137,7 @@ footer div h2 a {
 
 .myAcademicTraining div {
     display: flex;
+    flex-wrap: wrap;
 }
 .AcademicTraining {
     display: flex;
