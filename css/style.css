@@ -9,6 +9,7 @@ html{
 
 body {
     background-color: rgba(168, 168, 168, 0.177);
+    box-sizing: border-box;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
     margin-bottom: 15px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
+
 }
 
 header nav ul {
@@ -70,16 +72,19 @@ footer {
 
 footer div {
     display: flex;
+    justify-content: space-evenly;
+    flex: 1;
 }
 
-footer div h2{
-    padding: 30px;
-    font-size: 25px;
+footer div a{
+    padding: 25px;
+    font-size: 18px;
 }
 
-footer div h2 a {
+footer div a {
     text-decoration: none;
     color: aliceblue;
+    font-size: 13px;
 }
 
 footer div {
@@ -149,7 +154,7 @@ footer div {
 
 .myAcademicTraining div {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .AcademicTraining {
     display: flex;
@@ -161,7 +166,7 @@ footer div {
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 450px){
+/* @media (max-width: 450px){
 
     header {
         margin: 15px;
@@ -251,4 +256,4 @@ footer div {
         border: 2px; 
     }
     
-}
+} */
