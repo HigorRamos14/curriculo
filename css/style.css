@@ -25,7 +25,7 @@ header {
     margin-bottom: 15px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
-    white-space: nowrap;
+    
 
 }
 
@@ -36,6 +36,7 @@ header nav ul {
     align-items: center;
     flex-wrap: wrap;
     align-items: flex-end;
+    white-space: nowrap;
 }
 
 header nav ul li {
