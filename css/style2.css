@@ -82,14 +82,14 @@ body {
 .mainContent__Title {
     font-family: 'Lexend', sans-serif;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--Secundary-color);
 }
 
 .mainContent__text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .mainContent__text__strong {
@@ -128,9 +128,27 @@ body {
 .footer__text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 
 }
 
+@media (max-width: 1200px) {
+    .mainContent {
+        padding: 20% 2%;
+    }
 
+}
+
+@media (max-width: 900px) {
+    .mainContent {
+        flex-direction: column;
+    }
+
+    .mainContent__Section__Text {
+        width: 90%;
+    }
+    .mainContent__Section__Buttons {
+        width: 60%;
+    }
+}
