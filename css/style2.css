@@ -307,3 +307,15 @@ body {
         width: 60%;
     }
 }
+
+@media (max-width: 688px) {
+    .headerContent {
+        flex-direction: column;
+    }
+
+    .headerContent__Nav {
+        border-left: none;
+        border-top: solid 1px var(--Secundary-color);
+    }
+}
+ 
